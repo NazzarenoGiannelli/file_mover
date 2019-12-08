@@ -20,9 +20,8 @@ do {
     Write-Host '   '
     Write-Host 'Choose one of these options:'
     Write-Host '   '
-    Write-Host '1 - Move files from the above folder'
-    Write-Host '   '
-    Write-Host '2 - Move files from the above folder and its subfolders'
+    Write-Host '1 - Move files from the folder above'
+    Write-Host '2 - Move files from the folder above and its subfolders'
     Write-Host '   '
     $Subfolders = Read-Host -Prompt "Type 1 or 2 to proceed. Press Enter to confirm."
     Write-Host '___'
